@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* background: red; */
+}
+.mobile__nav__items {
+	display: none;
+}
+
+.mobile__nav__items.active {
+	display: flex;
+}
+
+/* i {
+	display: none;
+} */
+
+/* #0F172B!important */
+
+/* box-shadow: 0 0 45px rgba(0, 0, 0, 0.08); */
